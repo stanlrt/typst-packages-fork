@@ -1,4 +1,4 @@
-#import "@preview/modern-zhaw-thesis:0.4.0": *
+#import "@preview/modern-zhaw-thesis:0.5.0": *
 #import "glossary.typ": myGlossary
 
 #show: zhaw-thesis.with(
