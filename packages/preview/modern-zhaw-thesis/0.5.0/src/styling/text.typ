@@ -1,3 +1,4 @@
+#import "@preview/tieflang:0.1.0": tr
 #import "tokens.typ": tokens
 #import "../utils.typ": show_if_heading_within_distance, v-after-numbered-chapter-heading
 
@@ -14,8 +15,10 @@
     size: tokens.font-sizes.body,
   )
 
-  show heading.where(level: 4): set heading(numbering: none)
   set heading(numbering: (first, ..nums) => numbering("1.1", first, ..nums))
+
+  set heading(supplement: context tr().section)
+  show heading.where(level: 1): set heading(supplement: context tr().chapter)
 
   show heading: it => {
     set text(font: tokens.font-families.headers, fill: tokens.colour.main, weight: "bold")
@@ -80,6 +83,7 @@
       weight: "regular",
       size: tokens.font-sizes.h4,
     )
+    set heading(numbering: none)
     it
   }
 

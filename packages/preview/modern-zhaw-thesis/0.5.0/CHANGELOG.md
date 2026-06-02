@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.5.0
+
+- Added colophon to acknowledgements page, and the corresponding setting
+- Added proper supplements to header labels
+
 ## 0.4.0
 
 - **BREAKING (layout shifts)**: Tweaked H1 font size and spacing based on feedback

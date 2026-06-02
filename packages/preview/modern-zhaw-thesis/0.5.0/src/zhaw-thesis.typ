@@ -34,6 +34,7 @@
   ),
   acknowledgements: (
     text: none,
+    colophon: true,
     override: none,
   ),
   declaration-of-originality: (
@@ -76,6 +77,7 @@
 
   let acknowledgements-defaults = (
     text: none,
+    colophon: true,
     override: none,
   )
   let acknowledgements = deep-merge(acknowledgements-defaults, acknowledgements)

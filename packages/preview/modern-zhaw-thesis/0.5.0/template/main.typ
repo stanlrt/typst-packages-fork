@@ -33,11 +33,11 @@
 
 // Below you can write your thesis. It's recommended to create separate files for each chapter and include them here using #include "path/to/chapter.typ".
 
-= Introduction <intro>
+= Introduction <chap:intro>
 
 This document serves as a demo of both Typst features and the template itself.
 
-== What is Typst?
+== What is Typst? <sec:what-is-typst>
 
 #link("https://typst.app/", "Typst") is a modern typesetting system that combines the simplicity of Markdown with the power of LaTeX. It allows you to create beautiful documents with ease, keeping styling separate from content.
 
@@ -59,7 +59,7 @@ Here we refer to a source from our bibliography @garcia2021microservices. Pass a
 
 We can also refer to equations, such as @eq:weights, and figures, such as @tab:results.
 
-Finally, here we refer to a section: @intro.
+Finally, here we refer to a chapter @chap:intro and here to a section @sec:what-is-typst.
 
 == Quotes, lists, and footnotes
 

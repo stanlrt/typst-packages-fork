@@ -62,6 +62,8 @@
     glossary: [Glossar],
     code_snippet: [Code-Snippet],
     chapter: [Kapitel],
+    section: [Abschnitt],
+    colophon: [Dieses Dokument verwendet die #link("https://typst.app/universe/package/modern-zhaw-thesis")[moderne ZHAW Typst-Vorlage]],
     appendix: [Anhang],
   ),
   en: (
@@ -122,6 +124,8 @@
     glossary: [Glossary],
     code_snippet: [Code Snippet],
     chapter: [Chapter],
+    section: [Section],
+    colophon: [This document uses the #link("https://typst.app/universe/package/modern-zhaw-thesis")[modern ZHAW Typst template]],
     appendix: [Appendix],
   ),
 )

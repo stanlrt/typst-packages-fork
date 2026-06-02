@@ -63,6 +63,7 @@
     }
     acknowledgements-page(
       acknowledgements: acknowledgements.text,
+      colophon: acknowledgements.colophon,
       supervisors: cover.supervisors,
       co-supervisors: cover.co-supervisors,
       authors: cover.authors,
