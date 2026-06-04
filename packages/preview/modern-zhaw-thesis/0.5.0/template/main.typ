@@ -49,7 +49,7 @@ That's subjective, but:
 - it has built-in support for features that require packages in LaTeX (bibliography, cross-references, glossary, code snippets, etc.)
 - its web editor works better than Overleaf
 
-= Features showcase <features>
+= Features showcase <chap:features>
 
 == Glossary, references and labels
 
