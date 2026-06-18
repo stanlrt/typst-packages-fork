@@ -1,4 +1,5 @@
-#import "@preview/modern-zhaw-thesis:0.5.0": *
+// #import "@preview/modern-zhaw-thesis:0.5.0": *
+#import "../lib.typ": *
 #import "glossary.typ": myGlossary
 
 #show: zhaw-thesis.with(
@@ -16,8 +17,8 @@
   ),
   abstract: (
     keywords: ("template", "typst", "zhaw", "thesis"),
-    de: "Diese Vorlage dient als Demonstration der Funktionen von Typst und der Struktur einer Abschlussarbeit an der ZHAW. Sie umfasst Beispiele für Querverweise, ein Glossar, ein Literaturverzeichnis, mathematische Gleichungen und Codeausschnitte.",
-    en: "This template serves as a demonstration of Typst features and the structure of a thesis at ZHAW. It includes examples of cross-references, a glossary, bibliography, mathematical equations, and code snippets.",
+    de: [Diese Vorlage dient als Demonstration der Funktionen von Typst und der Struktur einer Abschlussarbeit an der ZHAW. Sie umfasst Beispiele für Querverweise, ein Glossar, ein Literaturverzeichnis, mathematische Gleichungen und Codeausschnitte.],
+    en: [This template serves as a demonstration of Typst features and the structure of a thesis at ZHAW. It includes examples of cross-references, a glossary, bibliography, mathematical equations, and code snippets.],
   ),
   declaration-of-originality: (
     location: "Zürich",

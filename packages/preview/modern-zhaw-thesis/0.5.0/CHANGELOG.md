@@ -4,7 +4,11 @@
 
 - Added colophon to acknowledgements page, and the corresponding setting
 - Added proper supplements to header labels and appendix
+- Fixed header spacing convergence issue
+- Fixed H4 labelling
 - Fixed labels naming convention
+- Fixed abstract keyword alignment
+- Fixed abstract formatting
 
 ## 0.4.0
 

@@ -83,8 +83,9 @@
       weight: "regular",
       size: tokens.font-sizes.h4,
     )
-    set heading(numbering: none)
-    it
+    // Keep heading numbered so it can be referenced, but don't render the
+    // number — show only the body.
+    it.body
   }
 
   set quote(block: true)
